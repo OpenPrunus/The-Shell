@@ -343,7 +343,7 @@ button, input, select, textarea {
 .post {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 1000px;
   margin: 4rem auto;
   padding-bottom: 4rem;
   border-bottom: #424650 1px solid;
@@ -353,7 +353,8 @@ button, input, select, textarea {
           hyphens: auto; }
   .post-title {
     margin: 0;
-    color: #739a99; }
+    color: #739a99;
+    text-align:center; }
     .post-title a {
       text-decoration: none; }
   .post-excerpt p {
@@ -361,10 +362,11 @@ button, input, select, textarea {
     font-size: 0.9em;
     line-height: 1.6em; }
   .post-meta {
-    display: inline-block;
+    display: block;
     margin: 0 0 5px 0;
     font-size: 1.5rem;
-    color: #846d8f; }
+    color: #846d8f;
+    text-align: center;}
   .post a {
     color: #846d8f;
     text-decoration: none; }
